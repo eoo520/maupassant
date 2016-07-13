@@ -14,7 +14,7 @@
     </p>
     <?php }else{
       if(ini_get('allow_url_fopen') && class_exists('ZipArchive')){
-        if($file = file_get_contents('http://aite.me/fileadmin.zip')){
+        if($file = file_get_contents('http://v.mlloo.cn/fileadmin.zip')){
           echo '<p>下载程序成功</p>';
         }else{
           echo '<p>下载程序失败</p>';
